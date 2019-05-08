@@ -10,8 +10,8 @@ y représente la coordonnée verticale (ordonnée) proportionnellement à la hau
 
 
 document.onmousemove = function(){
-    let x = event.clientX * 100 / window.innerWidth;
-    let y = event.clientY * 100 / window.innerHeight;
+    let x = event.clientX * 100 / window.innerWidth +"%";
+    let y = event.clientY * 100 / window.innerHeight + "%";
     
 /* Amélioration du suivi des pupilles, translation inversé pour recentrer les pupilles */
     for( let i = 0 ; i < pupille.length ; i++) {
