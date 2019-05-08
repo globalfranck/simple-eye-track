@@ -1,0 +1,46 @@
+/* Stylesheet for the stalk eyes */
+/* Inspired by 'Le Designer du Web' */
+
+
+/* Reset des marges du body et application d'un fond marron */
+body {
+    margin:0;
+    padding:0;
+    background-color: #4C280C;
+}
+
+/* Positionnent absolu des yeux */
+.yeux {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Définition de chaque oeil en noir avec des marges, un positionnement relatif et un mode d'affichage inlineblock*/
+/* Tout ce qui dépasse est caché avec overflow */
+
+.oeil {
+    width:240px;
+    height: 120px;
+    background: #fff;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow:hidden;
+}
+
+.pupille {
+    width: 40px;
+    height: 40px;
+    background: black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(50%,50%);
+    border-radius:50%;
+}
+
