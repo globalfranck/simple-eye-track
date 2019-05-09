@@ -44,3 +44,18 @@ body {
     border-radius:50%;
 }
 
+#texte_coordonnes {
+    border: 1px dotted white;
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    padding:5px;
+    left:10px;
+    top:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
